@@ -1,3 +1,4 @@
+import sqlite3
 from fastapi import FastAPI
 from pydantic import BaseModel
 
@@ -6,7 +7,7 @@ app = FastAPI()
 
 
 @app.get("/api/status")
-async def index():
+async def status():
     return {"status": "success"}
 
 

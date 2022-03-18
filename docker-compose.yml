@@ -1,0 +1,16 @@
+version: "3.5"
+
+networks:
+    chess:
+        external: false
+
+services:
+    server:
+        build: .
+        container_name: chess_server
+        networks:
+            - chess
+        volumes:
+            - /var/chess:/data
+        ports:
+            - "${HTTP_PORT}:80"

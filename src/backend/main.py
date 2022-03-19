@@ -154,6 +154,19 @@ async def confirm_player(request: ConfirmPlayerRequest):
     return {"status": "success"}
 
 
+class DeletePlayerRequest(BaseModel):
+    name: str
+
+@app.post("/admin/delete-player")
+async def confirm_player(request: DeletePlayerRequest):
+    if request.name not in db.players:
+        return {"status": "error", "reason": "that player does not exist"}
+
+    del db.players[request.name]
+
+    return {"status": "success"}
+
+
 @app.get("/admin/reset-db")
 async def reset_db():
     global db

@@ -61,6 +61,10 @@ def reset_db(args):
     print(query("reset-db"))
 
 
+def delete_player(args):
+    print(command("delete-player", {"name": args.name}))
+
+
 def confirm_player(args):
     print(command("confirm-player", {"name": args.name}))
 
@@ -84,6 +88,10 @@ def main():
     confirm_player_parser = subparsers.add_parser("confirm-player")
     confirm_player_parser.add_argument("name")
     confirm_player_parser.set_defaults(func=confirm_player)
+
+    delete_player_parser = subparsers.add_parser("delete-player")
+    delete_player_parser.add_argument("name")
+    delete_player_parser.set_defaults(func=delete_player)
 
     args = parser.parse_args()
     args.func(args)

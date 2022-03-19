@@ -165,6 +165,11 @@ option {
     height: 512px;
 }
 
+.submit.button {
+    width: 64px;
+    text-align: center;
+}
+
 .button {
     user-select: none;
     color: #ffe3a7;

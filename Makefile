@@ -21,7 +21,7 @@ frontend:
 		exit 1; \
 	fi
 	mkdir -p /var/www/chess/
-	cp deps/toastify/* src/*.html src/*.css src/*.js assets/* /var/www/chess/
+	cp $$(find deps -type f) $$(find src/frontend -type f) $$(find assets -type f) /var/www/chess/
 
 backend:
 	@if [ ! -f .env ]; then \

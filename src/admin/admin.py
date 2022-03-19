@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-import argparse
+# PYTHON_ARGCOMPLETE_OK
+import argcomplete, argparse
 import requests
 import sys
 from dotenv import dotenv_values
@@ -92,6 +93,8 @@ def main():
     delete_player_parser = subparsers.add_parser("delete-player")
     delete_player_parser.add_argument("name")
     delete_player_parser.set_defaults(func=delete_player)
+
+    argcomplete.autocomplete(parser)
 
     args = parser.parse_args()
     args.func(args)

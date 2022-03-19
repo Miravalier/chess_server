@@ -1,3 +1,22 @@
+async function on_submit(name, roles, rating, token) {
+    let response;
+    try {
+        response = await JsonPost("signup", { name, roles, rating, token });
+    }
+    catch (errorResponse) {
+        console.log(errorResponse);
+        Error("Error: A network request error occurred.")
+        return;
+    }
+
+    if (response.status === "success") {
+        window.location.assign("/thank-you");
+    }
+    else {
+        Error(response.reason);
+    }
+}
+
 $(function () {
     $(".submit.button").on("click", async ev => {
         const name = $(".form .name input").val();
@@ -22,21 +41,18 @@ $(function () {
 
         const rating = $(".form .rating input").val() || undefined;
 
-        let response;
-        try {
-            response = await JsonPost("signup", { name, roles, rating });
-        }
-        catch (errorResponse) {
-            console.log(errorResponse);
-            Error("Error: A network request error occurred.")
-            return;
-        }
-
-        if (response.status === "success") {
-            window.location.assign("/thank-you");
+        if (window.location.origin.endsWith(".local")) {
+            on_submit(name, roles, rating, undefined);
         }
         else {
-            Error(response.reason);
+            grecaptcha.ready(function () {
+                grecaptcha.execute(
+                    '{RECAPTCHA_SITE_KEY}',
+                    { action: 'submit' }
+                ).then(token => {
+                    on_submit(name, roles, rating, token);
+                });
+            });
         }
     });
 });

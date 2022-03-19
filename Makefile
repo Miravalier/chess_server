@@ -21,7 +21,10 @@ frontend:
 		exit 1; \
 	fi
 	mkdir -p /var/www/chess/
-	cp $$(find deps -type f) $$(find src/frontend -type f) $$(find assets -type f) /var/www/chess/
+	cp $$(find deps -type f) $$(find assets -type f) /var/www/chess/
+	. ./.env; for SRC in $$(find src/frontend -type f); do \
+		sed -e "s/{RECAPTCHA_SITE_KEY}/$$RECAPTCHA_SITE_KEY/g" $$SRC > /var/www/chess/$$(basename $$SRC); \
+	done
 
 backend:
 	@if [ ! -f .env ]; then \

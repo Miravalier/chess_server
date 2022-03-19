@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <title>782d MI Bn Chess</title>
+    <!-- Font Dependencies -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <!-- Code Dependencies -->
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script src="toastify.js"></script>
+    <link rel="stylesheet" href="toastify.css">
+    <!-- Project Code -->
+    <link rel="stylesheet" href="chess.css">
+    <link rel="icon" href="chess_favicon.png" type="image/png">
+    <script src="signup.js"></script>
+</head>
+
+<body>
+    <div class="page-header">
+        <img class="logo" src="chess_icon.png">
+        <a href="/signup"><span class="page-link active">Sign Up</span></a>
+    </div>
+    <div class="form">
+        <div class="role block">
+            <span class="label">1. Select at least one role</span>
+            <div class="role option">
+                <input class="player checkbox" type="checkbox">
+                <span class="sublabel">Player - Play in the tournament</span>
+            </div>
+            <div class="role option">
+                <input class="official checkbox" type="checkbox">
+                <span class="sublabel">
+                    Official - Enforce (and explain) the rules and
+                    submit score sheets for games
+                </span>
+            </div>
+            <div class="note">
+                If you sign up to officiate, please be prepared to briefly demonstrate
+                knowledge of piece movement, castling, capturing en passant, and one form of
+                chess notation.
+            </div>
+        </div>
+
+        <div class="name block">
+            <span class="label">2. Name</span>
+            <input type="text">
+        </div>
+        <div class="rating block">
+            <span class="label">3. Rating</span>
+            <input type="number">
+            <div class="note">
+                Any rating works: FIDE, chess.com, lichess, etc. If you don't have one
+                or don't know it, leave it blank.
+            </div>
+        </div>
+
+    </div>
+    <div class="submit button">Submit</div>
+</body>
+
+</html>

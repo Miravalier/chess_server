@@ -18,6 +18,140 @@ body {
     background-color: black;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: #ffe3a7;
+}
+
+input {
+    color: black;
+    padding: 4px;
+}
+
+.page-header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 48px;
+}
+
+.page-header .logo {
+    margin: 24px;
+    width: 48px;
+    height: 48px;
+    user-select: none;
+}
+
+.page-header .page-link {
+    padding: 24px;
+}
+
+.page-header .page-link.active {
+    color: #ffe3a7;
+    text-decoration-color: #ffe3a7;
+}
+
+.roster {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #303030;
+    padding: 16px;
+    border-radius: 4px;
+}
+
+.roster .title {
+    font-size: 24px;
+    text-align: center;
+}
+
+.roster .header.row span {
+    font-weight: bold;
+}
+
+.roster .row {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.roster .row .name {
+    width: 200px;
+    margin: 4px;
+}
+
+.roster .row .rating {
+    width: 64px;
+    margin: 4px;
+}
+
+.roster .row .wins {
+    width: 32px;
+    margin: 4px;
+    text-align: center;
+}
+
+.roster .row .losses {
+    width: 32px;
+    margin: 4px;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.form .label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.form .sublabel {
+    font-size: 16px;
+}
+
+.form .block {
+    margin: 16px;
+}
+
+.form .note {
+    font-style: italic;
+    margin: 4px;
+}
+
+.form .block.name input {
+    width: 256px;
+}
+
+.form .block .option {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin: 4px;
+}
+
+.form .checkbox {
+    height: 24px;
+    width: 24px;
+    margin: 4px;
+}
+
+.page {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+    margin: 0;
+    padding: 0;
+}
+
 .bordered {
     margin: 2em;
 }
@@ -25,4 +159,25 @@ body {
 .logo {
     width: 512px;
     height: 512px;
+}
+
+.button {
+    user-select: none;
+    color: #ffe3a7;
+    font-weight: bold;
+    background-color: #202020;
+    border-radius: 4px;
+    padding: 8px;
+    box-shadow: 2px 2px 0 0 #4a402a;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #303030;
+    box-shadow: 2px 2px 0 0 #ffe3a7;
+}
+
+.thank-you {
+    padding: 24px;
+    font-size: 64px;
 }

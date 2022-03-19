@@ -27,9 +27,13 @@ a:hover {
     text-decoration-color: #ffe3a7;
 }
 
-input {
+input, select {
     color: black;
     padding: 4px;
+}
+
+option {
+    color: black;
 }
 
 .page-header {

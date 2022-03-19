@@ -18,10 +18,31 @@ class Role(str, Enum):
     OFFICIAL = "official"
 
 
+class Company(str, Enum):
+    HHC = "hhc"
+    A = "a"
+    B = "b"
+    C = "c"
+    D = "d"
+
+
+class Cohort(str, Enum):
+    MILITARY = "military"
+    CIVILIAN = "civilian"
+    CONTRACTOR = "contractor"
+
+
+class Role(str, Enum):
+    PLAYER = "player"
+    OFFICIAL = "official"
+
+
 @dataclass
 class Player:
     name: str
     roles: List[Role]
+    cohort: Cohort
+    company: Optional[Company]
     rating: Optional[int]
     wins: int = 0
     losses: int = 0
@@ -76,6 +97,8 @@ async def status():
 
 class SignupRequest(BaseModel):
     name: str
+    company: Optional[Company]
+    cohort: Cohort
     roles: List[Role]
     rating: Optional[int]
     token: Optional[str]
@@ -103,7 +126,13 @@ async def signup(request: SignupRequest):
     if player and not player.pending:
         return {"status": "error", "reason": "That player is already confirmed."}
     # Add player to DB, de-dupe roles
-    player = Player(request.name, list(set(request.roles)), request.rating)
+    player = Player(
+        request.name,
+        list(set(request.roles)),
+        request.cohort,
+        request.company,
+        request.rating
+    )
     db.players[player.name] = player
     return {"status": "success"}
 

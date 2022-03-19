@@ -437,7 +437,7 @@
   return Toastify;
 });
 
-function Error(text) {
+function ErrorToast(text) {
   Toastify({
     text,
     duration: 4000,

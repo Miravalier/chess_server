@@ -5,7 +5,7 @@ async function on_submit(name, roles, rating, token) {
     }
     catch (errorResponse) {
         console.log(errorResponse);
-        Error("Error: A network request error occurred.")
+        ErrorToast("Error: A network request error occurred.")
         return;
     }
 
@@ -15,7 +15,7 @@ async function on_submit(name, roles, rating, token) {
         window.location.assign("/thank-you");
     }
     else {
-        Error(response.reason);
+        ErrorToast(response.reason);
     }
 }
 
@@ -24,7 +24,7 @@ $(function () {
         const name = $(".form .name input").val();
 
         if (name.length == 0) {
-            Error("You must enter a name.")
+            ErrorToast("You must enter a name.")
             return;
         }
 
@@ -37,7 +37,7 @@ $(function () {
         }
 
         if (roles.length == 0) {
-            Error("You must select at least one role.");
+            ErrorToast("You must select at least one role.");
             return;
         }
 

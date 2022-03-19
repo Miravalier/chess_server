@@ -11,7 +11,7 @@ from typing import Any
 config = dotenv_values(".env")
 try:
     http_port = int(config.get("HTTP_PORT", None))
-except ValueError:
+except (TypeError, ValueError):
     print("error: invalid .env file; copy example.env to .env and edit it", file=sys.stderr)
     sys.exit(1)
 

@@ -443,4 +443,5 @@ function Error(text) {
     duration: 4000,
     close: true
   }).showToast();
+  console.error("Error Toast", text);
 }

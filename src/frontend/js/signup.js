@@ -9,6 +9,8 @@ async function on_submit(name, roles, rating, token) {
         return;
     }
 
+    console.log(response);
+
     if (response.status === "success") {
         window.location.assign("/thank-you");
     }

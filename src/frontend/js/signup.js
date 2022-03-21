@@ -1,7 +1,7 @@
-async function on_submit(name, roles, rating, cohort, company, token) {
+async function on_submit(data) {
     let response;
     try {
-        response = await JsonPost("signup", { name, roles, rating, cohort, company, token });
+        response = await JsonPost("signup", data);
     }
     catch (errorResponse) {
         console.log(errorResponse);
@@ -38,11 +38,7 @@ $(function () {
 
     $(".submit.button").on("click", async ev => {
         const name = $(".form .name input").val();
-
-        if (name.length == 0) {
-            ErrorToast("You must enter a name.")
-            return;
-        }
+        const contact = $(".form .contact input").val();
 
         const roles = [];
         if ($(".form .role .player.checkbox").prop("checked")) {
@@ -57,6 +53,16 @@ $(function () {
             return;
         }
 
+        if (name.length == 0) {
+            ErrorToast("You must enter a name.")
+            return;
+        }
+
+        if (contact.length == 0) {
+            ErrorToast("You must enter an email or phone number.");
+            return;
+        }
+
         const rating = $(".form .rating input").val() || undefined;
         const cohort = $(".form .cohort select").val();
         let company = undefined;
@@ -64,8 +70,9 @@ $(function () {
             company = $(".form .company select").val();
         }
 
+        const submit_data = { name, roles, rating, cohort, company, contact };
         if (window.location.origin.endsWith(".local")) {
-            on_submit(name, roles, rating, cohort, company, undefined);
+            on_submit(submit_data);
         }
         else {
             grecaptcha.ready(function () {
@@ -73,7 +80,8 @@ $(function () {
                     '{RECAPTCHA_SITE_KEY}',
                     { action: 'submit' }
                 ).then(token => {
-                    on_submit(name, roles, rating, cohort, company, token);
+                    submit_data.token = token;
+                    on_submit(submit_data);
                 });
             });
         }

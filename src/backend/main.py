@@ -44,6 +44,7 @@ class Player:
     cohort: Cohort
     company: Optional[Company]
     rating: Optional[int]
+    contact: str
     wins: int = 0
     losses: int = 0
     pending: bool = True
@@ -102,6 +103,7 @@ class SignupRequest(BaseModel):
     roles: List[Role]
     rating: Optional[int]
     token: Optional[str]
+    contact: str
 
 @app.post("/api/signup")
 async def signup(request: SignupRequest):
@@ -131,7 +133,8 @@ async def signup(request: SignupRequest):
         list(set(request.roles)),
         request.cohort,
         request.company,
-        request.rating
+        request.rating,
+        request.contact
     )
     db.players[player.name] = player
     return {"status": "success"}

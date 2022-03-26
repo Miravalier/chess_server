@@ -63,14 +63,13 @@ $(function () {
             return;
         }
 
-        const rating = $(".form .rating input").val() || undefined;
         const cohort = $(".form .cohort select").val();
         let company = undefined;
         if (cohort != "contractor") {
             company = $(".form .company select").val();
         }
 
-        const submit_data = { name, roles, rating, cohort, company, contact };
+        const submit_data = { name, roles, cohort, company, contact };
         if (window.location.origin.endsWith(".local")) {
             on_submit(submit_data);
         }

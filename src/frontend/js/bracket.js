@@ -54,12 +54,12 @@ function GenerateSvgMatch(id, row, column, top_name, bottom_name, victory) {
 $(function () {
     $("#bracket").html(
         GenerateSvgBody(`
-            ${GenerateSvgMatch(1, 0.5, 0, "SSG Sandoval", "1LT Ashley")}
+            ${GenerateSvgMatch(1, 0.5, 0, "SSG Sandoval", "1LT Ashley", true)}
             ${GenerateSvgMatch(2, 1.5, 0, "SPC Morschhauser", "SPC Bean")}
             ${GenerateSvgMatch(3, 7.5, 0, "Ben Miramontes", "1LT Scott")}
             ${GenerateSvgMatch(4, 8.5, 0, "1LT Martinez", "SGT Addison")}
 
-            ${GenerateSvgMatch(5, 1, 1, "", "")}
+            ${GenerateSvgMatch(5, 1, 1, "SSG Sandoval", "")}
             ${GenerateSvgMatch(6, 2, 1, "SGT Walsh", "LTC Nelson")}
             ${GenerateSvgMatch(7, 3, 1, "CPT Weiss", "CPT Legoas")}
             ${GenerateSvgMatch(8, 4, 1, "Ken Burcaw", "WO1 Calhoun")}

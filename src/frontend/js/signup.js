@@ -1,3 +1,7 @@
+$(function () {
+    window.location.replace("/bracket");
+})
+/*
 async function on_submit(data) {
     let response;
     try {
@@ -86,3 +90,4 @@ $(function () {
         }
     });
 });
+*/

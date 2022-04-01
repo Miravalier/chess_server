@@ -201,3 +201,7 @@ option {
     width: 100%;
     height: 100%;
 }
+
+#bracket-svg .match {
+    cursor: pointer;
+}

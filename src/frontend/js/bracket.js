@@ -23,7 +23,7 @@ function GenerateSvgMatch(id, row, column, top_name, bottom_name, victory) {
     }
 
     return `
-        <g transform="translate(${x},${y})" id="match${id}">
+        <g transform="translate(${x},${y})" id="match${id}" class="match">
             <rect ry="1" style="fill:#535353;fill-opacity:1;stroke:#bc8700;stroke-width:0.25;stroke-opacity:1" y="0"
                 x="4" height="10" width="50" id="container${id}" />
             <text id="text${id}_1" y="6.5" x="3"
@@ -79,4 +79,10 @@ $(function () {
             ${GenerateSvgMatch(19, 4.5, 4, "", "")}
         `)
     );
+
+    for (let i = 1; i <= 19; i++) {
+        $(`#match${i}`).on("click", ev => {
+            window.location.href = `/game?id=${i}`;
+        });
+    }
 })

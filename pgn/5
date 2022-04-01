@@ -1,0 +1,21 @@
+[Event "782D Spring 2022"]
+[Site "GA, United States"]
+[Date "04/01/2022"]
+[White "SSG Sandoval"]
+[Black "SPC Morschhauser"]
+[Result "1-0"]
+
+1. e4 e5 2. Nf3 d6 3. Nc3 Nh6 4. Bc4 Nc6 5. d4 Ng4 6. Be3 a6 7. d5 b5 8. dxc6 a5
+9. Bxb5 Nf6 10. O-O Be6 11. b3 Rb8 12. Ng5 Bg4 13. f3 h6 14. Nd5 hxg5 15. Bxg5
+a4 16. Bxa4 Ra8 17. fxg4 Be7 18. Qf3 Ra5 19. Nxf6+ gxf6 20. Bxf6 Bxf6 21. Qxf6
+Qxf6 22. Rxf6 Rc5 23. b4 Rc4 24. g5 Rxe4 25. Raf1 Rxb4 26. Bb3 Rb6 27. Rxf7 Kd8
+28. g6 Rxc6 29. g7 Rg8 30. Rf8+ Rxf8 31. gxf8=Q+ Kd7 32. Rf7# 1-0
+
+[Event "782D Spring 2022"]
+[Site "GA, United States"]
+[Date "04/01/2022"]
+[White "SPC Morschhauser"]
+[Black "SSG Sandoval"]
+[Result "0-1"]
+
+1.c4 e5 2.b4 Nf6 3.a3 d5 4.Ra2 d4 5.g3 Be6 6.Bg2 Nc6 7.Nh3 Bd6 8.Bb2 Bxc4 9.Ra1 d3 10.a4 dxe2 11.Qc1 b5 12.Na3 Bxb4 13.Bc3 Ne4 14.f3 Qd3 15.Rg1 Nxc3 16.dxc3 Bxc3+ 17.Kf2 Qd4+ 18.Qe3 Qxe3+ 19.Kxe3 O-O 20.Nxc4 bxc4 21.Rac1 Bd4+ 22.Kxe2 Bxg1 23.Nxg1 Rfd8 24.Rxc4 Nd4+ 25.Kf2 c6 26.f4 exf4 27.Rxd4 Rxd4 28.Ne2 Rd2 29.Bxc6 Rc8 30.a5 Rxc6 31.gxf4 f6 32.h4 h6 33.f5 Rc5 34.Ke3 Rdd5 35.Nf4 Rxf5 {SSG Sandoval wins by flag}

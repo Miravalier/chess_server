@@ -1,0 +1,17 @@
+[Event "782D Spring 2022"]
+[Site "GA, United States"]
+[Date "04/01/2022 14:50"]
+[White "CPT Legoas"]
+[Black "CPT Weiss"]
+[Result "1-0"]
+
+1.d4 b5 2.Bf4 Nc6 3.e3 g6 4.Nf3 Bh6 5.c3 e5 6.Bg3 exd4 7.exd4 f5 8.Bxb5 Qe7+ 9.Qe2 Rb8 10.a4 a6 11.Ne5 axb5 12.a5 Nxa5 13.Rxa5 d6 14.Nf3 Be6 15.Rxb5 Rxb5 16.Qxb5+ Bd7+ 17.Qe2 Ba4 18.Qxe7+ Kxe7 19.O-O Nf6 20.Re1+ Kf7 21.h3 Nh5 22.Nbd2 Nxg3 23.fxg3 Bxd2 24.Nxd2 h5 25.g4 fxg4 26.hxg4 hxg4 27.Rf1+ Ke6 28.Ne4 Bb5 29.Re1 Bd3 30.Nf2+ Kf5 31.Nxd3 c5 32.dxc5 dxc5 33.Nxc5 Kf4 34.b4 Kg3 35.Ne6 Rh2 36.Re2 Rh5 37.Re3+ Kh4 38.g3+ Kh3 39.Nf4#
+
+[Event "782D Spring 2022"]
+[Site "GA, United States"]
+[Date "04/01/2022 15:44"]
+[White "CPT Weiss"]
+[Black "CPT Legoas"]
+[Result "0-1"]
+
+1.g3 f5 2.h4 Nf6 3.f4 g6 4.c3 d6 5.Na3 Bg7 6.b4 a6 7.Nc4 b5 8.Ne3 e6 9.Nc2 Qd7 10.d3 c6 11.e4 Bb7 12.Rh2 O-O 13.exf5 exf5 14.d4 Ne4 15.Qd3 Qe6 16.Re2 Re8 17.Bh3 c5 18.bxc5 dxc5 19.dxc5 Qc4 20.Qxc4+ bxc4 21.g4 Bxc3+ 22.Kd1 Bxa1 23.gxf5 Nc3+ 24.Kd2 Nxe2 25.Nxa1 Nd4 26.Nb3 Nbc6 27.Na5 Nxa5 28.fxg6 hxg6 29.f5 gxf5 30.h5 Rad8 31.Bb2 Nf3+ 32.Kc2 Nxg1 33.Bxf5 Be4+ 34.Kc3 Bxf5 35.Kb4 Nc6+ 36.Ka4 Rd4 37.h6 c3+ 38.Ka3 cxb2 39.Kxb2 Re3 40.h7+ Bxh7 41.Kc1 Re2 42.a3 Rf4 43.Kd1 Rf1#

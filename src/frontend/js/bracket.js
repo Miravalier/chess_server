@@ -56,19 +56,22 @@ $(function () {
         GenerateSvgBody(`
             ${GenerateSvgMatch(1, 0.5, 0, "SSG Sandoval", "1LT Ashley", true)}
             ${GenerateSvgMatch(2, 1.5, 0, "SPC Morschhauser", "SPC Bean", true)}
-            ${GenerateSvgMatch(3, 7.5, 0, "Ben Miramontes", "1LT Scott", true)}
-            ${GenerateSvgMatch(4, 8.5, 0, "1LT Martinez", "SGT Addison")}
+            ${GenerateSvgMatch(20, 6.25, 0, "CPT Woodruff", "1LT Bos")}
+            ${GenerateSvgMatch(21, 7, 0, "SSG Mills", "SPC Garza")}
+            ${GenerateSvgMatch(3, 8, 0, "Ben Miramontes", "1LT Scott", true)}
+            ${GenerateSvgMatch(4, 8.75, 0, "1LT Martinez", "SGT Addison")}
+
 
             ${GenerateSvgMatch(5, 1, 1, "SSG Sandoval", "SPC Morschhauser", true)}
-            ${GenerateSvgMatch(6, 2, 1, "SGT Walsh", "LTC Nelson")}
+            ${GenerateSvgMatch(6, 2, 1, "SGT Walsh", "LTC Nelson", false)}
             ${GenerateSvgMatch(7, 3, 1, "CPT Weiss", "CPT Legoas", false)}
             ${GenerateSvgMatch(8, 4, 1, "Ken Burcaw", "WO1 Calhoun")}
             ${GenerateSvgMatch(9, 5, 1, "SFC Feese", "SPC DuFresne", true)}
             ${GenerateSvgMatch(10, 6, 1, "James Hogan", "CPT Fielder")}
-            ${GenerateSvgMatch(11, 7, 1, "CPT Woodruff", "1LT Bos")}
-            ${GenerateSvgMatch(12, 8, 1, "Ben Miramontes", "")}
+            ${GenerateSvgMatch(11, 7, 1, "Match 20 Winner", "Match 21 Winner")}
+            ${GenerateSvgMatch(12, 8, 1, "Ben Miramontes", "Match 4 Winner")}
 
-            ${GenerateSvgMatch(13, 1.5, 2, "SSG Sandoval", "")}
+            ${GenerateSvgMatch(13, 1.5, 2, "SSG Sandoval", "LTC Nelson")}
             ${GenerateSvgMatch(14, 3.5, 2, "CPT Legoas", "")}
             ${GenerateSvgMatch(15, 5.5, 2, "SFC Feese", "")}
             ${GenerateSvgMatch(16, 7.5, 2, "", "")}
@@ -80,7 +83,7 @@ $(function () {
         `)
     );
 
-    for (let i = 1; i <= 19; i++) {
+    for (let i = 1; i <= 21; i++) {
         $(`#match${i}`).on("click", ev => {
             window.location.href = `/game?id=${i}`;
         });

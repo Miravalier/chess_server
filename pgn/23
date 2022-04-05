@@ -1,8 +1,8 @@
 [Event "782D Spring 2022"]
 [Site "GA, United States"]
 [Date "04/05/2022"]
-[White "CPT Roberts"]
-[Black "SSG Johnson"]
+[White "SSG Johnson"]
+[Black "CPT Roberts"]
 [Result "1/2-1/2"]
 
 1. d4 h5 2. e3 g6 3. c3 Nf6 4. Nf3 b6 5. Be2 Ba6 6. Nbd2 Ng4 7. h3 Bxe2 8. Qxe2
@@ -27,6 +27,29 @@ Rf4 1/2-1/2 {Draw by agreement}
 [Event "782D Spring 2022"]
 [Site "GA, United States"]
 [Date "04/05/2022"]
+[White "CPT Roberts"]
+[Black "SSG Johnson"]
+[Result "1/2-1/2"]
+
+1. c4 e5 2. b3 d6 3. d3 f6 4. f3 Nc6 5. a3 f5 6. b4 Qh4+ 7. Kd2 Be6 8. g3 Qd8 9.
+Ke1 Be7 10. h4 f4 11. g4 g6 12. b5 Nd4 13. g5 Nb3 14. Qxb3 Bf7 15. Qd1 Qd7 16.
+Bh3 Qd8 17. a4 e4 18. fxe4 h6 19. gxh6 Rxh6 20. d4 Rxh4 21. a5 f3 22. exf3 Bxc4
+23. Ra4 Bxb5 24. f4 Qd7 25. Bxd7+ Bxd7 26. Rxh4 Bxa4 27. Qxa4+ Kf8 28. Rh3 c6
+29. Qd1 Rc8 30. Rh8 Bf6 31. Rxg8+ Kxg8 32. Qb3+ Kg7 33. Nh3 Bxd4 34. Nc3 c5 35.
+Qa4 Bxc3+ 36. Kd1 Rd8 37. Qa3 Bb4 38. Qb2+ Kf8 39. Bd2 b6 40. Bxb4 cxb4 41. Qxb4
+Ke8 42. Ng5 bxa5 43. Qd4 Rb8 44. f5 gxf5 45. exf5 Rb3 46. Qxa7 Rg3 47. Qxa5 Rxg5
+48. Ke1 Ke7 49. Qb5 Kf6 50. Qd3 Rxf5 51. Qxd6+ Kg5 52. Qd3 Kf4 53. Qh3 Re5+ 54.
+Kf1 Ke4 55. Qh2 Rf5+ 56. Ke1 Rf3 57. Qe2+ Kf4 58. Qd1 Ke3 59. Qb3+ Kf4 60. Kd2
+Kg3 61. Qd5 Kf2 62. Kc2 Ke3 63. Qc6 Rf2+ 64. Kc3 Re2 65. Qb5 Kf2 66. Kc4 Ke3 67.
+Kc5 Rc2+ 68. Kb6 Kd2 69. Qa4 Kc3 70. Ka6 Kb2 71. Qb5+ Kc1 72. Qa4 Kb1 73. Qe4
+Kb2 74. Qd4+ Kb3 75. Qe4 Kc3 76. Qe3+ Kb2 77. Qe4 Kc3 78. Qc6+ Kb2 79. Qa4 Kc3
+80. Qa1+ Kd2 81. Qa4 Kc3 1/2-1/2 {Draw by repetition}
+
+[Event "782D Spring 2022"]
+[Site "GA, United States"]
+[Date "04/05/2022"]
 [White "SSG Johnson"]
 [Black "CPT Roberts"]
-[Result "*"]
+[Result "1-0"]
+
+* {CPT Roberts forfeits the match}

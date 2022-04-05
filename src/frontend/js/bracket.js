@@ -57,7 +57,7 @@ $(function () {
             ${GenerateSvgMatch(1, 0.5, 0, "SSG Sandoval", "1LT Ashley", true)}
             ${GenerateSvgMatch(2, 1.5, 0, "SPC Morschhauser", "SPC Bean", true)}
             ${GenerateSvgMatch(22, 3.5, 0, "Ken Burcaw", "WO1 Calhoun")}
-            ${GenerateSvgMatch(23, 4.5, 0, "CPT Roberts", "SSG Johnson")}
+            ${GenerateSvgMatch(23, 4.5, 0, "CPT Roberts", "SSG Johnson", false)}
             ${GenerateSvgMatch(20, 6.25, 0, "CPT Woodruff", "1LT Bos")}
             ${GenerateSvgMatch(21, 7, 0, "SSG Mills", "SPC Garza", false)}
             ${GenerateSvgMatch(3, 8, 0, "Ben Miramontes", "1LT Scott", true)}
@@ -66,7 +66,7 @@ $(function () {
             ${GenerateSvgMatch(5, 1, 1, "SSG Sandoval", "SPC Morschhauser", true)}
             ${GenerateSvgMatch(6, 2, 1, "SGT Walsh", "LTC Nelson", false)}
             ${GenerateSvgMatch(7, 3, 1, "CPT Weiss", "CPT Legoas", false)}
-            ${GenerateSvgMatch(8, 4, 1, "Match 22 Winner", "Match 23 Winner")}
+            ${GenerateSvgMatch(8, 4, 1, "Match 22 Winner", "SSG Johnson")}
             ${GenerateSvgMatch(9, 5, 1, "SFC Feese", "SPC DuFresne", true)}
             ${GenerateSvgMatch(10, 6, 1, "James Hogan", "CPT Fielder")}
             ${GenerateSvgMatch(11, 7, 1, "Match 20 Winner", "SPC Garza")}

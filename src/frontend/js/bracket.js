@@ -86,7 +86,7 @@ $(function () {
         `)
     );
 
-    for (let i = 1; i <= 23; i++) {
+    for (let i = 1; i <= 25; i++) {
         $(`#match${i}`).on("click", ev => {
             window.location.href = `/game?id=${i}`;
         });

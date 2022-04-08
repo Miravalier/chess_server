@@ -13,6 +13,10 @@ Qxc5+ Kg8 9. Ng5 h6 10. Nxf7 Kxf7 11. Bc4+ Kg6 12. Qf5# 1-0
 [Date "04/08/2022"]
 [White "CPT Marigliano"]
 [Black "SSG Voigt"]
-[Result "*"]
+[Result "0-1"]
 
-*
+1. d4 c6 2. Bf4 d5 3. Nc3 Bg4 4. f3 Qb6 5. fxg4 Qxb2 6. Bc7 Qxc3+ 7. Kf2 Nf6 8.
+g3 Nxg4+ 9. Kg2 Ne3+ 10. Kh3 Nxd1 11. Rxd1 e6 12. Bg2 Na6 13. a3 Nxc7 14. Nf3 h5
+15. Ng5 h4 16. a4 Bd6 17. Rhf1 hxg3+ 18. Kg4 f5+ 19. Rxf5 exf5+ 20. Kxf5 O-O-O
+21. e3 Rh5 22. Rf1 Rf8+ 23. Kg4 Rxg5+ 24. Kxg5 Rxf1 25. Bxf1 gxh2 26. Bg2 Qxe3+
+27. Kh5 Qe2+ 28. Kh4 Qxg2 29. c3 h1=Q# 0-1

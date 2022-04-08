@@ -20,6 +20,22 @@ g4 54. Ka6 g3 55. Ka7 g2 0-1 {SSG Sandoval resigns}
 [Date "04/08/2022"]
 [White "LTC Nelson"]
 [Black "SSG Sandoval"]
+[Result "0-1"]
+
+1. e4 e5 2. Bc4 Nf6 3. Nc3 Nc6 4. Qf3 Bc5 5. g4 g5 6. Nh3 h6 7. d3 d6 8. Nxg5
+hxg5 9. Bxg5 Bxg4 10. Bxf6 Bxf3 11. Bxd8 Rxd8 12. Nb5 Bxh1 13. Nxc7+ Kf8 14.
+Ne6+ fxe6 15. Bxe6 Rxh2 16. Ke2 Rxf2+ 17. Ke1 Nd4 18. Kxf2 Nxe6+ 19. Ke2 Nf4+
+20. Kd2 Bg2 21. Kc3 Bd4+ 22. Kd2 d5 23. c3 Bc5 24. a3 dxe4 25. b4 e3+ 26. Kd1
+e2+ 27. Ke1 Be7 28. Kf2 Bh4+ 29. Ke3 e1=Q+ 30. Rxe1 Bxe1 31. d4 b6 32. dxe5 Rd3+
+33. Kxf4 Rxc3 34. a4 Ra3 35. a5 Bxb4 36. axb6 axb6 37. Kf5 Ra5 38. Kf6 Bc3 39.
+Kf5 Rxe5+ 40. Kf4 Kf7 41. Kg3 Kf6 42. Kxg2 Kf5 43. Kg3 Re3+ 44. Kf2 Kf4 45. Kg2
+Re2+ 46. Kf1 Kf3 47. Kg1 Kg3 48. Kf1 Re1# 0-1
+
+[Event "782D Spring 2022"]
+[Site "GA, United States"]
+[Date "04/08/2022"]
+[White "SSG Sandoval"]
+[Black "LTC Nelson"]
 [Result "*"]
 
 *

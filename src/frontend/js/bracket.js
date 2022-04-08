@@ -2,7 +2,7 @@ function GenerateSvgBody(content) {
     return `
         <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"
             xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg"
-            xmlns="http://www.w3.org/2000/svg" id="bracket-svg" version="1.1" viewBox="0 0 300 160" height="600"
+            xmlns="http://www.w3.org/2000/svg" id="bracket-svg" version="1.1" viewBox="0 0 300 200" height="600"
             width="1280" class="bracket-svg">
             ${content}
         </svg>
@@ -11,7 +11,7 @@ function GenerateSvgBody(content) {
 
 function GenerateSvgMatch(id, row, column, top_name, bottom_name, victory) {
     const x = 5 + column * 60;
-    const y = 5 + row * 15;
+    const y = 5 + row * 12;
 
     let top_color = "#ffffff";
     let bottom_color = "#ffffff";
@@ -54,33 +54,35 @@ function GenerateSvgMatch(id, row, column, top_name, bottom_name, victory) {
 $(function () {
     $("#bracket").html(
         GenerateSvgBody(`
-            ${GenerateSvgMatch(1, 0.5, 0, "SSG Sandoval", "1LT Ashley", true)}
-            ${GenerateSvgMatch(2, 1.5, 0, "SPC Morschhauser", "SPC Bean", true)}
-            ${GenerateSvgMatch(22, 3.5, 0, "Ken Burcaw", "WO1 Calhoun")}
-            ${GenerateSvgMatch(23, 4.5, 0, "CPT Roberts", "SSG Johnson", false)}
-            ${GenerateSvgMatch(20, 6.25, 0, "CPT Woodruff", "1LT Bos")}
-            ${GenerateSvgMatch(21, 7, 0, "SSG Mills", "SPC Garza", false)}
-            ${GenerateSvgMatch(3, 8, 0, "Ben Miramontes", "1LT Scott", true)}
-            ${GenerateSvgMatch(4, 8.75, 0, "1LT Martinez", "SGT Addison", true)}
+            ${GenerateSvgMatch(1, 0, 0, "SSG Sandoval", "1LT Ashley", true)}
+            ${GenerateSvgMatch(2, 1, 0, "SPC Morschhauser", "SPC Bean", true)}
+            ${GenerateSvgMatch(22, 6, 0, "Ken Burcaw", "WO1 Calhoun", true)}
+            ${GenerateSvgMatch(23, 7, 0, "CPT Roberts", "SSG Johnson", false)}
+            ${GenerateSvgMatch(24, 10, 0, "James Hogan", "CPT Fielder")}
+            ${GenerateSvgMatch(25, 11, 0, "CPT Marigliano", "SSG Voigt")}
+            ${GenerateSvgMatch(20, 12, 0, "CPT Woodruff", "1LT Bos")}
+            ${GenerateSvgMatch(21, 13, 0, "SSG Mills", "SPC Garza", false)}
+            ${GenerateSvgMatch(3, 14, 0, "Ben Miramontes", "1LT Scott", true)}
+            ${GenerateSvgMatch(4, 15, 0, "1LT Martinez", "SGT Addison", true)}
 
-            ${GenerateSvgMatch(5, 1, 1, "SSG Sandoval", "SPC Morschhauser", true)}
-            ${GenerateSvgMatch(6, 2, 1, "SGT Walsh", "LTC Nelson", false)}
-            ${GenerateSvgMatch(7, 3, 1, "CPT Weiss", "CPT Legoas", false)}
-            ${GenerateSvgMatch(8, 4, 1, "Match 22 Winner", "SSG Johnson")}
-            ${GenerateSvgMatch(9, 5, 1, "SFC Feese", "SPC DuFresne", true)}
-            ${GenerateSvgMatch(10, 6, 1, "James Hogan", "CPT Fielder")}
-            ${GenerateSvgMatch(11, 7, 1, "Match 20 Winner", "SPC Garza")}
-            ${GenerateSvgMatch(12, 8, 1, "Ben Miramontes", "1LT Martinez")}
+            ${GenerateSvgMatch(5, 0.5, 1, "SSG Sandoval", "SPC Morschhauser", true)}
+            ${GenerateSvgMatch(6, 2.5, 1, "SGT Walsh", "LTC Nelson", false)}
+            ${GenerateSvgMatch(7, 4.5, 1, "CPT Weiss", "CPT Legoas", false)}
+            ${GenerateSvgMatch(8, 6.5, 1, "Ken Burcaw", "SSG Johnson")}
+            ${GenerateSvgMatch(9, 8.5, 1, "SFC Feese", "SPC DuFresne", true)}
+            ${GenerateSvgMatch(10, 10.5, 1, "Match 24 Winner", "Match 25 Winner")}
+            ${GenerateSvgMatch(11, 12.5, 1, "Match 20 Winner", "SPC Garza")}
+            ${GenerateSvgMatch(12, 14.5, 1, "Ben Miramontes", "1LT Martinez")}
 
             ${GenerateSvgMatch(13, 1.5, 2, "SSG Sandoval", "LTC Nelson")}
-            ${GenerateSvgMatch(14, 3.5, 2, "CPT Legoas", "")}
-            ${GenerateSvgMatch(15, 5.5, 2, "SFC Feese", "")}
-            ${GenerateSvgMatch(16, 7.5, 2, "", "")}
+            ${GenerateSvgMatch(14, 5.5, 2, "CPT Legoas", "")}
+            ${GenerateSvgMatch(15, 9.5, 2, "SFC Feese", "")}
+            ${GenerateSvgMatch(16, 13.5, 2, "", "")}
 
-            ${GenerateSvgMatch(17, 2.5, 3, "", "")}
-            ${GenerateSvgMatch(18, 6.5, 3, "", "")}
+            ${GenerateSvgMatch(17, 3.5, 3, "", "")}
+            ${GenerateSvgMatch(18, 11.5, 3, "", "")}
 
-            ${GenerateSvgMatch(19, 4.5, 4, "", "")}
+            ${GenerateSvgMatch(19, 7.5, 4, "", "")}
         `)
     );
 

@@ -1,0 +1,17 @@
+[Event "782D Spring 2022"]
+[Site "GA, United States"]
+[Date "04/13/2022"]
+[White "Ken Burcaw"]
+[Black "SSG Johnson"]
+[Result "1/2-1/2"]
+
+1.e3 d5 2.g3 e6 3.d4 f6 4.Nf3 Nc6 5.Bh3 f5 6.O-O Nge7 7.Na3 Ng6 8.c4 Nge7 9.cxd5 exd5 10.Qa4 Bd7 11.Bd2 f4 12.exf4 Bxh3 13.Rfe1 b6 14.Ng5 Bd7 15.Bb4 b5 16.Nxb5 Nxb4 17.Qxb4 h6 18.Nf3 a6 19.Nc3 Rb8 20.Qa5 Bg4 21.Re3 c6 22.Qxa6 Ra8 23.Qb7 g6 24.Rae1 Bc8 25.Qxe7+ Bxe7 26.Rxe7+ Qxe7 27.Rxe7+ Kxe7 28.Ne5 Rxa2 29.Nxc6+ Kd7 30.Ne5+ Kd8 31.Nxg6 Ra1+ 32.Kg2 Re8 33.Nxd5 Ra5 34.Nf6 Re6 35.b4 Rf5 36.Nh4 Bb7+ 37.Kh3 Rfxf6 38.f5 Re4 39.b5 Rxd4 40.g4 Rd2 41.Kg3 Rd3+ 42.Kf4 Rd4+ 43.Ke5 Rfd6 44.Ng6 R4d5+ 45.Ke4 Rd4+ 46.Ke5 Kd7 47.Nf8+ Ke8 48.Ne6 R4d5+ 49.Ke4 Rxb5+ 50.Kf4 Rb4+ 51.Ke5 Rbb6 52.Nc7+ Kd8 53.Ne6+ Kd7 54.Ng7 Rb5+ 55.Kf4 Rb4+ 56.Ke5 Kc6 57.h4 Kc5 58.Ne6+ Kc6 59.g5 Bc8 60.gxh6 Bxe6 61.fxe6 Rb5+ 62.Kf6 Rb6 63.h7 Rb8 64.f4 Re8 65.Kf7 Rdxe6 66.h8=Q Rxh8 67.Kxe6 Re8+ 68.Kf6 Kd7 69.h5 Re6+ 70.Kg5 Ke7 71.h6 Kf7 72.h7 Re8 73.f5 Kg7 74.f6+ Kxh7 75.f7 Kg7 76.fxe8=Q Kh7 77.Qe7+ Kg8 78.Qe6+ Kf8 79.Kf6 1/2-1/2
+
+[Event "782D Spring 2022"]
+[Site "GA, United States"]
+[Date "04/13/2022"]
+[White "SSG Johnson"]
+[Black "Ken Burcaw"]
+[Result "0-1"]
+
+1.e4 e6 2.d3 d5 3.f3 dxe4 4.fxe4 f5 5.c3 Qh4+ 6.g3 Qf6 7.d4 fxe4 8.Bb5+ c6 9.Ba4 b5 10.Bc2 Na6 11.Ne2 e5 12.Bxe4 Bf5 13.Bxc6+ Qxc6 14.dxe5 Qxh1+ 15.Kd2 Qxd1+ 16.Kxd1 O-O-O+ 17.Bd2 g5 18.g4 Bxb1 19.Rxb1 Bh6 20.Nd4 Nc5 21.Nxb5 Kb8 22.Kc1 Ne4 23.c4 Nxd2 24.Kc2 Nxb1 25.Kxb1 Ne7 26.Kc2 Rhf8 27.Nc3 Rf2+ 28.Kb3 Rxh2 29.e6 Rd6 30.c5 Rxe6 31.Nb5 Rh3+ 32.Ka4 Re4+ 33.Ka5 Rxg4 34.Ka6 Ra4# 0-1

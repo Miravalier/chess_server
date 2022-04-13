@@ -80,7 +80,7 @@ $(function () {
             ${GenerateSvgMatch(16, 13.5, 2, "1LT Bos", "Ben Miramontes", false)}
 
             ${GenerateSvgMatch(17, 3.5, 3, "SSG Sandoval", "")}
-            ${GenerateSvgMatch(18, 11.5, 3, "", "")}
+            ${GenerateSvgMatch(18, 11.5, 3, "", "Ben Miramontes")}
 
             ${GenerateSvgMatch(19, 7.5, 4, "", "")}
         `)

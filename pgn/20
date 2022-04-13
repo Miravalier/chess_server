@@ -1,0 +1,21 @@
+[Event "782D Spring 2022"]
+[Site "GA, United States"]
+[Date "04/12/2022"]
+[White "1LT Bos"]
+[Black "CPT Woodruff"]
+[Result "1-0"]
+
+1.d4 d5 2.e3 e5 3.Nf3 f6 4.Bb5+ Bd7 5.Nc3 Bb4 6.O-O Bxc3 7.Bxd7+ Qxd7 8.bxc3 Nc6 9.Rb1 O-O-O 10.Ba3 f5 11.Nxe5 Nxe5 12.dxe5 Nh6 13.Qd4 Kb8 14.Rb3 Rhe8 15.Rfb1 Re6 16.Rxb7+ Kc8 17.Rb8# 1-0
+
+[Event "782D Spring 2022"]
+[Site "GA, United States"]
+[Date "04/12/2022"]
+[White "CPT Woodruff"]
+[Black "1LT Bos"]
+[Result "0-1"]
+
+1. e4 e5 2. d3 Nc6 3. Nf3 d6 4. Bg5 Be7 5. Bh4 Bxh4 6. Nxh4 Qxh4 7. Nc3 Nf6 8.
+Qf3 Nd4 9. Qg3 Qxg3 10. fxg3 Bg4 11. h3 Be6 12. O-O-O Nh5 13. Be2 Nxg3 14. Bf3
+Nxh1 15. Rxh1 Nxf3 16. gxf3 O-O-O 17. Rg1 Bxh3 18. Rxg7 f6 19. Nb5 c6 20. Nxa7+
+Kb8 21. Nxc6+ bxc6 22. Rg3 Be6 23. c4 d5 24. exd5 cxd5 25. Rg7 dxc4 26. dxc4
+Bxc4 0-1 {CPT Woodruff resigns}

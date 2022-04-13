@@ -1,0 +1,17 @@
+[Event "782D Spring 2022"]
+[Site "GA, United States"]
+[Date "04/12/2022"]
+[White "1LT Martinez"]
+[Black "Ben Miramontes"]
+[Result "0-1"]
+
+1.g4 d5 2.d4 Bxg4 3.h3 Bf5 4.c3 Nc6 5.Na3 e5 6.e3 Bxa3 7.bxa3 Qh4 8.Nf3 Qe4 9.Bd3 Qxf3 10.Qxf3 Bxd3 11.Qxd5 Nf6 12.Qg2 Be4 13.f3 Bg6 14.dxe5 Nxe5 15.O-O O-O-O 16.f4 Nd3 17.Bb2 Be4 18.Qxg7 Rhg8 19.Qxg8 Rxg8+ 20.Kh2 Nxb2 21.Rf2 Nd3 22.Rd2 c5 23.c4 Nh5 24.h4 Ng3 25.Kh3 Nf5 26.a4 Rg3+ 27.Kh2 Rxe3 28.Rg1 Ne1 29.Rg4 Nf3+ 30.Kh3 Nxd2+ 31.Kh2 Re2+ 32.Kh3 Nd6 33.Rg8+ Kc7 34.Kg4 Rg2+ 35.Kh5 Rxg8 36.Kh6 N2xc4 37.h5 Ne3 38.a5 c4 39.a4 c3 40.a6 c2 41.axb7 c1=Q 42.b8=Q+ Kxb8 43.f5 Qg1 44.Kxh7 Qg7# 0-1
+
+[Event "782D Spring 2022"]
+[Site "GA, United States"]
+[Date "04/12/2022"]
+[White "Ben Miramontes"]
+[Black "1LT Martinez"]
+[Result "1-0"]
+
+1.d4 b5 2.e4 d5 3.Bxb5+ c6 4.Bd3 Qa5+ 5.Nc3 dxe4 6.Bxe4 Bb7 7.Qf3 Nf6 8.Ne2 g5 9.Qf5 Qc7 10.Bxg5 Nbd7 11.O-O h6 12.Bxf6 exf6 13.Rfe1 Rg8 14.d5 Ne5 15.dxc6 Bxc6 16.Qxf6 Nd7 17.Bxc6 Rb8 18.Qh4 Qxc6 19.Nd4+ Be7 20.Qxe7# 1-0

@@ -22,6 +22,13 @@ Kd7 53. Rh7+ Kc8 54. d7+ Kc7 55. Ke6 Kc6 56. d8=Q Kb5 57. Rb7+ Kc4 58. Rc7+ Kb3
 [White "SFC Feese"]
 [Black "SSG Voigt"]
 
-[Result "*"]
+[Result "0-1"]
 
-*
+1. e4 Nc6 2. d4 d5 3. e5 Bf5 4. a3 h5 5. h4 a6 6. Nf3 e6 7. Bg5 Be7 8. Nc3 Nh6
+9. Bxh6 Rxh6 10. Nh2 g6 11. Be2 Bxh4 12. g4 hxg4 13. Nxg4 Bxg4 14. Bxg4 Qe7 15.
+Qd2 Bg5 16. f4 Rxh1+ 17. Kf2 Rh2+ 18. Ke1 Rxd2 19. Kxd2 Bxf4+ 20. Kd3 O-O-O 21.
+Rf1 Qg5 22. Be2 Qg3+ 23. Rf3 Qg5 24. Na4 Na5 25. b3 c5 26. Nxc5 Rh8 27. Kc3 Rh4
+28. b4 Nc4 29. Bxc4 dxc4 30. Kxc4 b5+ 31. Kb3 Qd8 32. Rc3 Kb8 33. Nxa6+ Ka7 34.
+Nc5 Qxd4 35. Rd3 Qxe5 36. Rd7+ Kb6 37. Rxf7 Rh3+ 38. Nd3 Bd2 39. Ka2 Qc3 40. Rf2
+Qxc2+ 41. Nb2 Qb3+ 42. Ka1 Qxa3+ 43. Kb1 Bc3 44. Re2 Rh1+ 45. Kc2 Qxb2+ 46. Kd3
+Rh3+ 47. Ke4 Qxe2+ {SFC Feese resigns}

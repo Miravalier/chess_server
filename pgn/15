@@ -1,8 +1,27 @@
 [Event "782D Spring 2022"]
 [Site "GA, United States"]
-[Date "04/x/2022"]
+[Date "04/19/2022"]
+[White "SSG Voigt"]
+[Black "SFC Feese"]
+[Result "1-0"]
+
+1. h4 e5 2. e4 d5 3. Qh5 Nc6 4. Bb5 g6 5. Qxe5+ Qe7 6. Qxe7+ Bxe7 7. exd5 Bd7 8.
+dxc6 bxc6 9. Bc4 Nf6 10. Bxf7+ Kxf7 11. d3 Rhe8 12. Be3 Bc5 13. Nc3 Bxe3 14.
+fxe3 Rxe3+ 15. Kd2 Ng4 16. Rf1+ Bf5 17. h5 Rae8 18. hxg6+ Kxg6 19. Nf3 c5 20.
+Nh4+ Kg7 21. Nxf5+ Kg6 22. Nd5 Re2+ 23. Kc3 c4 24. Nh4+ Kg7 25. Nf4 R2e3 26.
+Nf5+ Kf6 27. Nd5+ Kg6 28. Ndxe3 Nxe3 29. Nxe3 Rxe3 30. Kxc4 Re2 31. Kc3 Rxg2 32.
+Rhg1 Rxg1 33. Rxg1+ Kf5 34. Kd2 h5 35. Ke3 a6 36. Kf3 c6 37. Rh1 Kg5 38. Kg3 c5
+39. Rh4 a5 40. b3 Kg6 41. c3 Kg5 42. d4 cxd4 43. cxd4 Kg6 44. d5 Kf7 45. Kf4 Ke7
+46. Rxh5 Kd6 47. a3 Kc5 48. Ke4 Kd6 49. b4 a4 50. Rh6+ Kc7 51. d6+ Kc6 52. Ke5
+Kd7 53. Rh7+ Kc8 54. d7+ Kc7 55. Ke6 Kc6 56. d8=Q Kb5 57. Rb7+ Kc4 58. Rc7+ Kb3
+59. Qd3+ Kb2 60. Rc2+ Kb1 61. Qd1# 1-0
+
+[Event "782D Spring 2022"]
+[Site "GA, United States"]
+[Date "04/19/2022"]
 [White "SFC Feese"]
 [Black "SSG Voigt"]
+
 [Result "*"]
 
 *

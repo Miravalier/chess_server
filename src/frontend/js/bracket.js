@@ -79,10 +79,10 @@ $(function () {
             ${GenerateSvgMatch(15, 9.5, 2, "SFC Feese", "SSG Voigt", false)}
             ${GenerateSvgMatch(16, 13.5, 2, "1LT Bos", "Ben Miramontes", false)}
 
-            ${GenerateSvgMatch(17, 3.5, 3, "SSG Sandoval", "CPT Legoas")}
+            ${GenerateSvgMatch(17, 3.5, 3, "SSG Sandoval", "CPT Legoas", false)}
             ${GenerateSvgMatch(18, 11.5, 3, "SSG Voigt", "Ben Miramontes")}
 
-            ${GenerateSvgMatch(19, 7.5, 4, "", "")}
+            ${GenerateSvgMatch(19, 7.5, 4, "CPT Legoas", "")}
         `)
     );
 

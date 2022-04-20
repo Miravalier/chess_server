@@ -1,8 +1,17 @@
 [Event "782D Spring 2022"]
 [Site "GA, United States"]
-[Date "04/x/2022"]
+[Date "04/20/2022"]
+[White "CPT Legoas"]
+[Black "SSG Sandoval"]
+[Result "1-0"]
+
+1.d4 d5 2.Bf4 Nc6 3.e3 Bf5 4.c3 Nf6 5.Qa4 e6 6.Ba6 bxa6 7.Qxc6+ Qd7 8.Qxa8+ Qd8 9.Qxa7 Bd6 10.Bg3 Ne4 11.Nf3 O-O 12.Nbd2 Qb8 13.Qxb8 Rxb8 14.O-O Rxb2 15.Rab1 Nxd2 16.Rxb2 Nxf1 17.Bxd6 g6 18.Kxf1 cxd6 19.h4 a5 20.Rb6 e5 21.Nh2 f6 22.g4 Bd3+ 23.Ke1 a4 24.a3 Kg7 25.Rxd6 {CPT Legoas wins by flag} 1-0
+
+[Event "782D Spring 2022"]
+[Site "GA, United States"]
+[Date "04/20/2022"]
 [White "SSG Sandoval"]
 [Black "CPT Legoas"]
-[Result "*"]
+[Result "0-1"]
 
-*
+1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.c4 Ngf6 6.Bd3 g6 7.Bf4 Qb6 8.Nf3 Qxb2 9.O-O Nxe4 10.Bxe4 Nf6 11.Nd2 Bg4 12.f3 Qxd4+ 13.Rf2 Nxe4 14.Nxe4 Bg7 15.h3 f5 16.fxg4 O-O-O 17.Ng5 Qxc4 18.Bd6 Bxa1 {CPT Legoas wins by flag} 0-1

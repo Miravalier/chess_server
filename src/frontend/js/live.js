@@ -23,7 +23,7 @@ $(function () {
         board.position(response.position);
     }, 5000);
 
-    let ws_prefix = (window.location.protocol === "https://" ? "wss:" : "ws:");
+    let ws_prefix = (window.location.protocol === "https:" ? "wss:" : "ws:");
     const ws = new WebSocket(`${ws_prefix}//${window.location.host}/api/live-board-ws`);
     let seq = 0;
     ws.onmessage = function (event) {

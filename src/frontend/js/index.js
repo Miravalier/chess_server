@@ -1,3 +1,3 @@
 $(function () {
-    window.location.replace("/bracket");
+    window.location.replace("/live");
 })

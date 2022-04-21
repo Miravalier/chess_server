@@ -12,20 +12,25 @@
     <script src="toastify.js"></script>
     <link rel="stylesheet" href="toastify.css">
     <!-- Project Code -->
-    <link rel="stylesheet" href="chess.css?v=2">
+    <link rel="stylesheet" href="chess.css">
     <link rel="icon" href="chess_favicon.png" type="image/png">
     <script src="chess.js"></script>
-    <script src="bracket.js?v=16"></script>
+    <script src="live.js"></script>
+    <!-- PGN -->
+    <link rel="stylesheet" href="chessboard-1.0.0.min.css">
+    <script src="chessboard-1.0.0.min.js"></script>
 </head>
 
 <body>
     <div class="page-header">
         <img class="logo" src="chess_icon.png">
-        <a href="/bracket"><span class="page-link active">Bracket</span></a>
-        <a href="/live"><span class="page-link">Live Broadcast</span></a>
+        <a href="/bracket"><span class="page-link">Bracket</span></a>
+        <a href="/live"><span class="page-link active">Live Broadcast</span></a>
     </div>
 
-    <div id="bracket">
+    <div id="board-container">
+        <div id="board">
+        </div>
     </div>
 </body>
 

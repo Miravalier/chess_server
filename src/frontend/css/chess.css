@@ -207,3 +207,19 @@ option {
 #bracket-svg .match {
     cursor: pointer;
 }
+
+#board.admin {
+    width: 50%;
+    background-color: white;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+#board-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100% - 48px);
+}

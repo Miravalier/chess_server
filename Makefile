@@ -1,6 +1,6 @@
 DOMAIN = chess.local
 
-.PHONY: help backend frontend client nginx pfx
+.PHONY: help backend frontend nginx
 
 help:
 	@echo "make help"
@@ -20,9 +20,13 @@ frontend:
 		echo "No .env found in $$PWD; copy example.env to .env and edit it"; \
 		exit 1; \
 	fi
+	rm -rf /var/www/chess/img/
 	mkdir -p /var/www/chess/pgn
+	cp $$(find deps/toastify -type f) $$(find assets -type f) /var/www/chess/
+	cp deps/chessboardjs/js/chessboard-1.0.0.min.js /var/www/chess/
+	cp deps/chessboardjs/css/chessboard-1.0.0.min.css /var/www/chess/
+	cp -r deps/chessboardjs/img /var/www/chess/
 	cp $$(find pgn -type f) /var/www/chess/pgn/
-	cp $$(find deps -type f) $$(find assets -type f) /var/www/chess/
 	. ./.env; for SRC in $$(find src/frontend -type f); do \
 		sed -e "s/{RECAPTCHA_SITE_KEY}/$$RECAPTCHA_SITE_KEY/g" $$SRC > /var/www/chess/$$(basename $$SRC); \
 	done

@@ -2,15 +2,16 @@ import asyncio
 import os
 import pickle
 import requests
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from enum import Enum
-from fastapi import FastAPI
+from fastapi import FastAPI, WebSocket, HTTPException
 from functools import partial
 from pydantic import BaseModel
-from typing import Dict, List, Optional
+from typing import List, Optional
 
 
 RECAPTCHA_SECRET_KEY = os.environ["RECAPTCHA_SECRET_KEY"]
+ADMIN_KEY = os.environ["ADMIN_KEY"]
 
 
 class Role(str, Enum):
@@ -50,9 +51,13 @@ class Player:
     pending: bool = True
 
 
+INITIAL_POSITION = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
+
+
 @dataclass
 class DB:
-    players: Dict[str, Player] = field(default_factory=dict)
+    seq: int = 0
+    position: str = INITIAL_POSITION
 
 
 # Load DB
@@ -60,8 +65,11 @@ DB_PATH = "/data/chess.db"
 try:
     with open(DB_PATH, "rb") as db_file:
         db = pickle.load(db_file)
-except OSError:
+except Exception:
     db = DB()
+
+
+connected_sockets = []
 
 
 # DB saving background task
@@ -86,13 +94,55 @@ async def async_post(*args, **kwargs) -> requests.Response:
     return await loop.run_in_executor(None, partial(requests.post, *args, **kwargs))
 
 
-
 # FastAPI App
 app = FastAPI()
 
 
 @app.get("/api/status")
 async def status():
+    return {"status": "success"}
+
+
+@app.get("/api/live-board")
+async def live_board():
+    return {"status": "success", "position": db.position}
+
+
+@app.websocket("/api/live-board-ws")
+async def live_board_websocket(websocket: WebSocket):
+    await websocket.accept()
+    connected_sockets.append(websocket)
+    while True:
+        await asyncio.sleep(10000)
+
+
+class AdminStatus(BaseModel):
+    id: str
+
+@app.post("/api/admin-status")
+async def admin_status(request: AdminStatus):
+    if request.id != ADMIN_KEY:
+        raise HTTPException(401, "Invalid admin key")
+    return {"status": "success"}
+
+
+class AdminSetPosition(BaseModel):
+    id: str
+    position: str
+
+@app.post("/api/admin-set-position")
+async def admin_set_position(request: AdminSetPosition):
+    if request.id != ADMIN_KEY:
+        raise HTTPException(401, "Invalid admin key")
+    seq = db.seq
+    position = request.position
+    db.seq += 1
+    db.position = position
+    for websocket in connected_sockets:
+        try:
+            await websocket.send_json({"position": position, "seq": seq})
+        except Exception:
+            connected_sockets.remove(websocket)
     return {"status": "success"}
 
 

@@ -1,3 +1,11 @@
+function JsonGet(endpoint) {
+    return $.ajax({
+        type: 'GET',
+        url: `/api/${endpoint}`,
+        contentType: "application/json",
+    });
+}
+
 function JsonPost(endpoint, data) {
     return $.ajax({
         type: 'POST',

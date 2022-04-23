@@ -1,8 +1,26 @@
 [Event "782D Spring 2022"]
 [Site "GA, United States"]
 [Date "04/22/2022"]
+[White "SSG Voigt"]
+[Black "CPT Legoas"]
+[Result "1-0"]
+
+1. c3 f5 2. e3 Nf6 3. d4 g6 4. Nd2 d6 5. Ngf3 Bh6 6. h4 O-O 7. Ng5 Qe8 8. Bd3
+Bg7 9. e4 e5 10. Bc4+ Kh8 11. Nf7+ Rxf7 12. Bxf7 Qxf7 13. dxe5 dxe5 14. exf5
+Bxf5 15. Nf3 Nbd7 16. Ng5 Qd5 17. Qxd5 Nxd5 18. h5 Kg8 19. hxg6 hxg6 20. Bd2
+N7f6 21. f3 Re8 22. O-O-O Bf8 23. Rde1 Bd6 24. g4 Bd7 25. Rh6 Re7 26. Rxg6+ Rg7
+27. Rh6 {CPT Legoas resigns} 1-0
+
+[Event "782D Spring 2022"]
+[Site "GA, United States"]
+[Date "04/22/2022"]
 [White "CPT Legoas"]
 [Black "SSG Voigt"]
-[Result "*"]
+[Result "1-0"]
 
-*
+1. d4 d5 2. Bf4 c6 3. e3 Nd7 4. c3 Qb6 5. Qb3 Ngf6 6. Nd2 Ne4 7. Ngf3 a6 8. Ne5
+Nxd2 9. Kxd2 Qxb3 10. axb3 Nxe5 11. Bxe5 f6 12. Bg3 Bf5 13. Bd3 e6 14. Rhe1 c5
+15. Bxf5 exf5 16. f3 Rc8 17. Rac1 Be7 18. Kc2 O-O 19. Red1 c4 20. bxc4 dxc4 21.
+d5 Rfd8 22. Rd4 Bc5 23. Rdd1 Bxe3 24. Ra1 Rc5 25. d6 f4 26. Bxf4 Bxf4 27. d7 Rc7
+28. Rd4 Be5 29. Rdd1 Rdxd7 30. Rxd7 Rxd7 31. Rd1 Rd6 32. Rxd6 Bxd6 33. g4 b5 34.
+h4 Kf7 35. b4 cxb3+ 36. Kxb3 a5 37. g5 f5 {CPT Legoas resigns} 0-1

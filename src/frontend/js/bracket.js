@@ -104,10 +104,10 @@ $(function () {
     // Commander's Cup Bracket
     $("#bracket").html(
         GenerateSvgBody(`
-            ${GenerateSvgMatch(1, 0.75, 0, "Bos - A Co", "Fielder - C Co")}
+            ${GenerateSvgMatch(1, 0.75, 0, "Bos - A Co", "Fielder - C Co", true)}
             ${GenerateSvgMatch(2, 4.75, 0, "Ashley - HHC", "Scheu - D Co")}
 
-            ${GenerateSvgMatch(3, 0.5, 1, "Costa - A Co", "Winner of 1")}
+            ${GenerateSvgMatch(3, 0.5, 1, "Costa - A Co", "Bos - A Co")}
             ${GenerateSvgMatch(4, 2.5, 1, "Voigt - B Co", "Stinson - C Co")}
             ${GenerateSvgMatch(5, 4.5, 1, "Feese - HHC", "Winner of 2")}
             ${GenerateSvgMatch(6, 6.5, 1, "Mattson - D Co", "Hatt - B Co")}

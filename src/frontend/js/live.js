@@ -1,3 +1,7 @@
+$(function () {
+    window.location.replace("/bracket");
+})
+/*
 function calculateSize() {
     const size = Math.min(
         document.getElementById("board-container").clientWidth,
@@ -38,3 +42,4 @@ $(function () {
         }
     };
 })
+*/

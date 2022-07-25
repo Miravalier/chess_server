@@ -1,8 +1,20 @@
 function GenerateSvgBody(content) {
+    /*
+    // Sprint Fest Bracket
     return `
         <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"
             xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg"
             xmlns="http://www.w3.org/2000/svg" id="bracket-svg" version="1.1" viewBox="0 0 300 200" height="600"
+            width="1280" class="bracket-svg">
+            ${content}
+        </svg>
+    `;
+    */
+    // Commander's Cup Bracket
+    return `
+        <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"
+            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg"
+            xmlns="http://www.w3.org/2000/svg" id="bracket-svg" version="1.1" viewBox="0 0 275 125" height="600"
             width="1280" class="bracket-svg">
             ${content}
         </svg>
@@ -52,6 +64,8 @@ function GenerateSvgMatch(id, row, column, top_name, bottom_name, victory) {
 }
 
 $(function () {
+    /*
+    // Spring Fest Bracket
     $("#bracket").html(
         GenerateSvgBody(`
             ${GenerateSvgMatch(1, 0, 0, "SSG Sandoval", "1LT Ashley", true)}
@@ -83,6 +97,26 @@ $(function () {
             ${GenerateSvgMatch(18, 11.5, 3, "SSG Voigt", "Ben Miramontes", true)}
 
             ${GenerateSvgMatch(19, 7.5, 4, "CPT Legoas", "SSG Voigt", false)}
+        `)
+    );
+    */
+
+    // Commander's Cup Bracket
+    $("#bracket").html(
+        GenerateSvgBody(`
+            ${GenerateSvgMatch(1, 0.75, 0, "Bos - A Co", "Fielder - C Co")}
+            ${GenerateSvgMatch(2, 4.75, 0, "Ashley - HHC", "Scheu - D Co")}
+
+            ${GenerateSvgMatch(3, 0.5, 1, "Costa - A Co", "Winner of 1")}
+            ${GenerateSvgMatch(4, 2.5, 1, "Voigt - B Co", "Stinson - C Co")}
+            ${GenerateSvgMatch(5, 4.5, 1, "Feese - HHC", "Winner of 2")}
+            ${GenerateSvgMatch(6, 6.5, 1, "Mattson - D Co", "Hatt - B Co")}
+
+            ${GenerateSvgMatch(7, 1.5, 2, "Winner of 3", "Winner of 4")}
+            ${GenerateSvgMatch(8, 5.5, 2, "Winner of 5", "Winner of 6")}
+
+            ${GenerateSvgMatch(9, 3.5, 3, "Winner of 7", "Winner of 8")}
+            ${GenerateSvgMatch(10, 5, 3.25, "Loser of 7", "Loser of 8")}
         `)
     );
 
